@@ -1,12 +1,10 @@
 const constVar = "constVar";
-let letVar = "letVar";
-var varVar = "varVar";
+let letVar = "letVar",
+  varVar = "varVar";
 
 console.log("constVar: " + constVar);
 console.log("letVar: " + letVar);
 console.log("varVar: " + varVar);
-
-console.log("\n");
 
 // this would result in an error
 // constVar = "newConstVar"
@@ -14,21 +12,17 @@ console.log("\n");
 letVar = "newLetVar";
 varVar = "newVarVar";
 
-console.log("letVar: " + letVar);
+console.log("\nletVar: " + letVar);
 console.log("varVar: " + varVar);
 
-console.log("\n");
-
-console.log("var di dalam loop");
+console.log("\nvar di dalam loop");
 for (var i = 0; i < 2; ++i) {
   console.log("Nilai i: " + i);
 }
 
 console.log("var di luar loop, i: " + i);
 
-console.log("\n");
-
-console.log("let di dalam loop");
+console.log("\nlet di dalam loop");
 for (let j = 0; j < 2; ++j) {
   console.log("Nilai j: " + j);
 }

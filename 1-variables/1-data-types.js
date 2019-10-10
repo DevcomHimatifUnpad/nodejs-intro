@@ -1,10 +1,10 @@
-const boolVar = false;
-const numVar = 42;
-const bigIntVar = 42n;
-const strVar = "hello";
-const undefinedVar = undefined;
-const nullVar = null;
-const objVar = {};
+const boolVar = false,
+  numVar = 42,
+  bigIntVar = 42n,
+  strVar = "hello",
+  undefinedVar = undefined,
+  nullVar = null,
+  objVar = {};
 
 console.log("boolVar: " + typeof boolVar);
 console.log("numVar: " + typeof numVar);
