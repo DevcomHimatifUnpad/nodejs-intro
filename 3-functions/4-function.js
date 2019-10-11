@@ -1,11 +1,6 @@
-const height = 5;
-const radius = 3;
-let volume;
+// first-class function
+const print = () =>
+  console.log("2000 milliseconds have passed since this demo started");
 
-(() => {
-  const pir2 = Math.PI * radius * radius;
-
-  volume = (pir2 * height) / 3;
-})();
-
-console.log(volume);
+// higher-order function
+setTimeout(print, 2000);
